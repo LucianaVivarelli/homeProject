@@ -1,0 +1,1318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+:root {
+  --Bright-Purple: #7b1fa2;
+  --dark-purple: #431c60;
+  --light-blue: #aab5e0;
+  --white: #fff;
+  --white-light: rgba(255, 255, 255, 1);
+  --royal-blue: #4527a0;
+  --green: #8bc34a;
+  --light-blue: #5371e6;
+  --black: #272727d4;
+  --black-blur: rgba(33, 33, 33, 1);
+  --grey: #8b8b8b;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.project-container {
+  width: 375px;
+  height: 1851px;
+  background-color: #261136;
+  color: var(--white);
+  overflow: hidden;
+  font-family: runda, sans-serif;
+  font-weight: light;
+  font-weight: 300;
+}
+.title {
+  top: 104px;
+  left: 20px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: visible;
+  line-height: 41px;
+  font-size: 36px;
+  letter-spacing: 3px;
+  filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+}
+
+.boarding-container {
+  width: 332px;
+  height: 279px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  background-color: var(--black);
+  bottom: 9.8rem;
+  position: relative;
+  left: 16px;
+}
+.boarding-now-container {
+  position: absolute;
+  width: 145px;
+  height: 12.28px;
+  left: 0px;
+  top: 19px;
+  overflow: visible;
+}
+.boarding-gate {
+  left: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 166px;
+  height: 32px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  background-color: var(--green);
+}
+.boarding-text {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  font-weight: 500;
+}
+.gate-closes-container {
+  background-color: var(--black);
+  position: absolute;
+  width: 166px;
+  height: 32px;
+  left: 165px;
+  overflow: visible;
+}
+.gate-closes {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  overflow: visible;
+  width: 145px;
+  height: 12.3px;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1.5px;
+}
+.gate-text {
+  position: relative;
+  top: 10px;
+  left: 12px;
+  font-weight: 500;
+}
+
+.LHR {
+  left: 20px;
+  top: 56px;
+  position: absolute;
+  overflow: visible;
+  width: 122px;
+  height: 55px;
+  text-align: left;
+  font-size: 48px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+.line-div-plain01 {
+  overflow: visible;
+  position: absolute;
+  width: 31px;
+  height: 1px;
+  left: 120px;
+  top: 90px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#line-div-plain01 {
+  fill: transparent;
+  stroke: var(--grey);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+#airplain {
+  transform: translate(0px, 0px) matrix(1, 0, 0, 1, 161, 70.9884) rotate(40deg);
+  transform-origin: center;
+  position: absolute;
+  color: var(--grey);
+  font-size: 2.5rem;
+  left: 16px;
+  top: -4px;
+  overflow: visible;
+}
+#placing-plain {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#icon-plain {
+  fill: var(--grey);
+  width: 24px;
+  height: 24px;
+}
+.fa-solid fa-plane {
+  overflow: visible;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.line-div-plain02 {
+  overflow: visible;
+  position: absolute;
+  width: 31px;
+  height: 1px;
+  left: 199px;
+  top: 90px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#line-div-plain02 {
+  fill: transparent;
+  stroke: rgba(112, 112, 112, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.new-york {
+  opacity: 0.5;
+  left: 210px;
+  top: 116px;
+  position: absolute;
+  overflow: visible;
+  width: 112px;
+  height: 15px;
+  line-height: 18px;
+  margin-top: -3.5px;
+  text-align: right;
+  text-transform: capitalize;
+  font-weight: normal;
+  font-size: 11px;
+  letter-spacing: 0.2px;
+}
+
+.JFK {
+  left: 206px;
+  top: 56px;
+  position: absolute;
+  overflow: visible;
+  width: 116px;
+  height: 55px;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 48px;
+  letter-spacing: 0.2px;
+}
+.london {
+  opacity: 0.5;
+  left: 21px;
+  top: 116px;
+  position: absolute;
+  overflow: visible;
+  width: 122px;
+  height: 15px;
+  line-height: 18px;
+  margin-top: -3.5px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 11px;
+  letter-spacing: 0.2px;
+  text-transform: capitalize;
+}
+.line-div {
+  overflow: visible;
+  position: absolute;
+  width: 301px;
+  height: 1px;
+  left: 21.5px;
+  top: 147.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#line-div {
+  opacity: 0.486;
+  fill: transparent;
+  stroke: var(--grey);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.flight {
+  width: 102.9px;
+  height: 12.6px;
+  position: absolute;
+  left: 21px;
+  top: 169.3px;
+  margin-top: -3.5px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 11px;
+  letter-spacing: 0.2px;
+  opacity: 0.5;
+  overflow: hidden;
+}
+.seat {
+  width: 102.9px;
+  height: 12.6px;
+  position: absolute;
+  top: 169.3px;
+  left: 118.6px;
+  margin-top: -3.5px;
+  opacity: 0.5;
+  line-height: 18px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  font-size: 11px;
+  letter-spacing: 0.2px;
+  overflow: hidden;
+}
+.gate {
+  opacity: 0.5;
+  left: 220.5px;
+  top: 169.3px;
+  position: absolute;
+  overflow: hidden;
+  width: 102.9px;
+  height: 12.6px;
+  line-height: 18px;
+  margin-top: -3.5px;
+  text-align: center;
+  font-weight: normal;
+  font-size: 11px;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+.va-2501 {
+  left: 21px;
+  top: 187.3px;
+  position: absolute;
+  overflow: visible;
+  width: 102.9px;
+  height: 20.6px;
+  line-height: 18px;
+  margin-top: -2px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+.num-35a {
+  left: 118.6px;
+  top: 187.3px;
+  position: absolute;
+  overflow: visible;
+  width: 102.9px;
+  height: 20px;
+  line-height: 18px;
+  margin-top: -2px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+.num-34b {
+  left: 220.5px;
+  top: 187.3px;
+  position: absolute;
+  overflow: hidden;
+  width: 102.9px;
+  height: 12.6px;
+  line-height: 18px;
+  margin-top: -2px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+}
+.departs {
+  opacity: 0.5;
+  left: 21px;
+  top: 228.3px;
+  position: absolute;
+  overflow: hidden;
+  width: 102.9px;
+  height: 12.6px;
+  line-height: 18px;
+  margin-top: -3.5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 11px;
+  letter-spacing: 0.2px;
+}
+.num-10-25 {
+  width: 102.9px;
+  height: 20.6px;
+  position: absolute;
+  overflow: visible;
+  left: 21px;
+  top: 246.3px;
+  line-height: 18px;
+  margin-top: -2px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  font-weight: normal;
+  font-size: 14px;
+}
+.button-view {
+  width: 180px;
+  height: 46px;
+  position: absolute;
+  overflow: visible;
+  left: 142px;
+  top: 225px;
+  display: flex;
+  justify-content: center;
+  background-color: var(--dark-purple);
+  text-align: center;
+}
+.text-btn {
+  background-color: var(--dark-purple);
+  color: var(--white);
+  letter-spacing: 0, 5%;
+  text-transform: uppercase;
+}
+
+.title-btn-plans {
+  width: 255px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#your-plans {
+  left: 23px;
+  top: 531px;
+  position: absolute;
+  overflow: hidden;
+  width: 256px;
+  height: 20px;
+  line-height: 37px;
+  margin-top: -9.5px;
+  text-align: left;
+  font-family: Runda;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: var(--light-blue);
+}
+.btn-more {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  top: 523px;
+  left: 300px;
+  border-radius: 50%;
+  background-color: var(--Bright-Purple);
+  margin: 0 auto;
+  overflow: visible;
+  z-index: 1;
+}
+
+.you-plans-container {
+  position: absolute;
+  width: 353px;
+  height: 298px;
+  left: 11px;
+  top: 558px;
+  overflow: visible;
+}
+.text-line {
+  display: flex;
+  justify-content: space-around;
+}
+.hotel-Card {
+  position: absolute;
+  width: 353px;
+  height: 298px;
+  left: 11px;
+  top: 558px;
+  overflow: visible;
+}
+#hotel-img {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  position: absolute;
+  width: 335px;
+  height: 280px;
+  left: 9px;
+  top: 6px;
+  overflow: visible;
+}
+.back-description {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  position: absolute;
+  overflow: visible;
+  width: 324px;
+  height: 104px;
+  left: 12.5px;
+  top: 182px;
+}
+#back-description {
+  filter: blur(6.608px);
+  fill: var(--black-blur);
+}
+#the-J-hotel {
+  left: 29px;
+  top: 196.854px;
+  position: absolute;
+  overflow: visible;
+  width: 192px;
+  white-space: nowrap;
+  line-height: 33px;
+  margin-top: -4.5px;
+  text-align: left;
+  font-weight: normal;
+  font-size: 24px;
+}
+.line-div-hotel {
+  overflow: visible;
+  position: absolute;
+  width: 294.346px;
+  height: 1px;
+  left: 29.524px;
+  top: 240.148px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#line-div-hotel {
+  fill: rgba(0, 0, 0, 0);
+  stroke: var(--grey);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+#hotel-adress {
+  left: 57px;
+  top: 254.57px;
+  position: absolute;
+  overflow: visible;
+  width: 187px;
+  white-space: nowrap;
+  line-height: 37px;
+  margin-top: -12.5px;
+  text-align: left;
+
+  font-size: 12px;
+}
+#Places {
+  position: absolute;
+  width: 15.92px;
+  height: 15.92px;
+  left: 29.023px;
+  top: 251px;
+  overflow: visible;
+}
+#four-nights {
+  left: 268px;
+  top: 204px;
+  position: absolute;
+  overflow: hidden;
+  width: 64.4px;
+  height: 24px;
+  background-color: var(--Bright-Purple);
+  line-height: 31px;
+  margin-top: -10px;
+  text-align: center;
+  font-size: 11px;
+}
+#Transport-value {
+  position: absolute;
+  width: 341px;
+  height: 310px;
+  left: 17px;
+  top: 863.056px;
+  overflow: visible;
+}
+#back-img-transport {
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.443));
+  position: absolute;
+  width: 335px;
+  height: 304px;
+  left: 3px;
+  top: 1px;
+  overflow: visible;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://loremflickr.com/320/240");
+}
+#Retngulo_1462_o {
+  fill: url(#Retngulo_1462_o);
+}
+.Retngulo_1462_o {
+  position: absolute;
+  overflow: visible;
+  width: 335px;
+  height: 304px;
+  left: 3px;
+  top: 0.944px;
+}
+#car_Services_i {
+  left: 72.023px;
+  top: 35.854px;
+  position: absolute;
+  overflow: visible;
+  width: 247px;
+  height: 41px;
+  line-height: 20px;
+  margin-top: -3px;
+  text-align: left;
+  font-size: 14px;
+}
+#data {
+  color: var(--green);
+}
+#Pickup {
+  left: 68.054px;
+  top: 103px;
+  position: absolute;
+  overflow: visible;
+  width: 64px;
+  white-space: nowrap;
+  line-height: 37px;
+  margin-top: -8.5px;
+  text-align: left;
+  font-size: 20px;
+}
+#name-driver {
+  left: 68.054px;
+  top: 132.57px;
+  position: absolute;
+  overflow: hidden;
+  width: 175px;
+  height: 34px;
+  line-height: 18px;
+  margin-top: -3px;
+  text-align: left;
+  font-size: 12px;
+}
+#Elipse_16 {
+  fill: var(--Bright-Purple);
+}
+.Elipse_16 {
+  position: absolute;
+  overflow: visible;
+  width: 22px;
+  height: 22px;
+  left: 31px;
+  top: 104px;
+}
+#Elipse_17 {
+  fill: transparent;
+  stroke: var(--white-light);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Elipse_17 {
+  position: absolute;
+  overflow: visible;
+  width: 32px;
+  height: 32px;
+  left: 26px;
+  top: 99px;
+}
+#Elipse_18 {
+  fill: var(--light-blue);
+}
+.Elipse_18 {
+  position: absolute;
+  overflow: visible;
+  width: 22px;
+  height: 22px;
+  left: 31px;
+  top: 218px;
+}
+#Elipse_19 {
+  fill: transparent;
+  stroke: rgba(255, 255, 255, 1);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Elipse_19 {
+  position: absolute;
+  overflow: visible;
+  width: 32px;
+  height: 32px;
+  left: 26px;
+  top: 213px;
+}
+#Destination {
+  left: 68.054px;
+  top: 218px;
+  position: absolute;
+  overflow: visible;
+  width: 110px;
+  white-space: nowrap;
+  line-height: 37px;
+  margin-top: -8.5px;
+  text-align: left;
+  font-size: 20px;
+}
+#adress-to {
+  left: 68.054px;
+  top: 245.57px;
+  position: absolute;
+  overflow: visible;
+  width: 206px;
+  height: 45px;
+  line-height: 18px;
+  margin-top: -3px;
+  text-align: left;
+  font-size: 12px;
+}
+#div-line-liberty {
+  fill: transparent;
+  stroke: var(--white-light);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.div-line-liberty {
+  overflow: visible;
+  position: absolute;
+  width: 1px;
+  height: 82px;
+  left: 41.5px;
+  top: 131.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#ryan-photo {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 26px;
+  top: 36px;
+  overflow: visible;
+}
+#Edit_Button {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 272px;
+  top: 99px;
+  overflow: visible;
+}
+#Caminho_268_ {
+  fill: url(#Caminho_268_);
+}
+.Caminho_268_ {
+  overflow: visible;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Compose {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 10px;
+  top: 10px;
+  overflow: visible;
+}
+#Retngulo_324 {
+  fill: transparent;
+}
+.Retngulo_324 {
+  position: absolute;
+  overflow: visible;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+}
+#Caminho_110 {
+  fill: var(--white-light);
+}
+.Caminho_110 {
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Edit_Button_ {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 272px;
+  top: 214px;
+  overflow: visible;
+}
+#Caminho_268_bb {
+  fill: url(#Caminho_268_bb);
+}
+.Caminho_268_bb {
+  overflow: visible;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Compose_ {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 10px;
+  top: 10px;
+  overflow: visible;
+}
+#Retngulo_324_ba {
+  fill: transparent;
+}
+.Retngulo_324_ba {
+  position: absolute;
+  overflow: visible;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+}
+#Caminho_110_bb {
+  fill: var(--white-light);
+}
+.Caminho_110_bb {
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Background_Picture {
+  fill: transparent;
+}
+.Background_Picture {
+  position: absolute;
+  overflow: visible;
+  width: 14.492px;
+  height: 14.492px;
+  left: 180px;
+  top: 298.989px;
+}
+#Overlay {
+  position: absolute;
+  width: 375px;
+  height: 367.73px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#liberty-tour-card {
+  position: absolute;
+  width: 335px;
+  height: 280px;
+  left: 20px;
+  top: 1189px;
+  overflow: visible;
+}
+
+#liberty-img {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  position: absolute;
+  width: 335px;
+  height: 280px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+#Divider_Line {
+  fill: rgba(0, 0, 0, 0);
+  stroke: var(--grey);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Divider_Line {
+  overflow: visible;
+  position: absolute;
+  width: 294.346px;
+  height: 1px;
+  left: 20.524px;
+  top: 234.148px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+#lady-liberty-tour {
+  left: 20.023px;
+  top: 190.854px;
+  position: absolute;
+  overflow: visible;
+  width: 194px;
+  white-space: nowrap;
+  line-height: 33px;
+  margin-top: -4.5px;
+  text-align: left;
+  font-size: 24px;
+}
+#Caminho_13 {
+  fill: var(--white-light);
+}
+.Caminho_13 {
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 20px;
+  top: 249px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#liberty-adress {
+  left: 46.054px;
+  top: 250px;
+  position: absolute;
+  overflow: visible;
+  width: 142px;
+  height: 15px;
+  line-height: 37px;
+  margin-top: -12.5px;
+  text-align: left;
+  font-family: Runda;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: var(--white-light);
+}
+.back-description-liberty {
+  background-color: #040404;
+  width: 322px;
+  height: 104px;
+  position: absolute;
+  overflow: visible;
+  top: 170px;
+  left: 6.5px;
+  background: transparent;
+  backdrop-filter: blur(9px);
+}
+
+#back-description-liberty {
+  filter: blur(6.608px);
+  fill: var(--black-blur);
+}
+.card-transport {
+  background-color: var(--Bright-Purple);
+  position: absolute;
+  width: 335px;
+  height: 265px;
+  left: 11px;
+  top: 1483px;
+  overflow: visible;
+}
+#from {
+  left: 39px;
+  top: 39px;
+  position: absolute;
+  overflow: visible;
+  width: 30px;
+  white-space: nowrap;
+  line-height: 37px;
+  margin-top: -12.5px;
+  text-align: left;
+  font-size: 12px;
+  color: var(--grey);
+}
+#from-input {
+  left: 78px;
+  top: 39px;
+  position: absolute;
+  overflow: visible;
+  width: 200px;
+  white-space: nowrap;
+  line-height: 37px;
+  margin-top: -12.5px;
+  text-align: left;
+  font-family: Runda;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: var(--dark-purple);
+}
+#to {
+  left: 39px;
+  top: 89px;
+  position: absolute;
+  overflow: visible;
+  width: 14px;
+  white-space: nowrap;
+  line-height: 37px;
+  margin-top: -12.5px;
+  text-align: left;
+  font-family: Runda;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: var(--grey);
+}
+
+#to-input {
+  left: 72px;
+  top: 89px;
+  position: absolute;
+  overflow: visible;
+  width: 182px;
+  white-space: nowrap;
+  line-height: 37px;
+  margin-top: -12.5px;
+  text-align: left;
+  font-size: 12px;
+  color: var(--dark-purple);
+}
+#Transportation_Alternatives {
+  background-image: url("../assets/icons/Retângulo 1463.png");
+  position: absolute;
+  width: 353px;
+  height: 293px;
+  left: 11px;
+  top: 1483px;
+  overflow: visible;
+}
+#Retngulo_1463_dm {
+  fill: url(#Retngulo_1463_dm);
+}
+.Retngulo_1463_dm {
+  filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.502));
+  position: absolute;
+  overflow: visible;
+  width: 353px;
+  height: 293px;
+  left: 9px;
+  top: 6px;
+}
+#Linha_2 {
+  fill: transparent;
+  stroke: var(--grey);
+  stroke-width: 1px;
+  stroke-linejoin: miter;
+  stroke-linecap: butt;
+  stroke-miterlimit: 4;
+  shape-rendering: auto;
+}
+.Linha_2 {
+  overflow: visible;
+  position: absolute;
+  width: 294px;
+  height: 1px;
+  left: 29.5px;
+  top: 133.5px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#Form_Box {
+  fill: var(--white-light);
+}
+.Form_Box {
+  position: absolute;
+  overflow: visible;
+  width: 295px;
+  height: 40px;
+  left: 29px;
+  top: 26px;
+}
+#Form_Box_dp {
+  fill: var(--white-light);
+}
+.Form_Box_dp {
+  position: absolute;
+  overflow: visible;
+  width: 295px;
+  height: 40px;
+  left: 29px;
+  top: 76px;
+}
+#From {
+  left: 39px;
+  top: 39px;
+  position: absolute;
+  overflow: visible;
+  width: 30px;
+  white-space: nowrap;
+  line-height: 37px;
+  margin-top: -12.5px;
+  text-align: left;
+  font-family: Runda;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: var(--grey);
+}
+#To {
+  left: 39px;
+  top: 89px;
+  position: absolute;
+  overflow: visible;
+  width: 14px;
+  white-space: nowrap;
+  line-height: 37px;
+  margin-top: -12.5px;
+  text-align: left;
+  font-family: Runda;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: var(--grey);
+}
+#JFK-transport {
+  left: 78px;
+  top: 39px;
+  position: absolute;
+  overflow: visible;
+  width: 66px;
+  white-space: nowrap;
+  line-height: 37px;
+  margin-top: -12.5px;
+  text-align: left;
+  font-size: 12px;
+  color: var(--dark-purple);
+}
+#adress-transport {
+  left: 72px;
+  top: 89px;
+  position: absolute;
+  overflow: visible;
+  width: 182px;
+  white-space: nowrap;
+  line-height: 37px;
+  margin-top: -12.5px;
+  text-align: left;
+  font-size: 12px;
+  color: var(--dark-purple);
+}
+#Icons {
+  position: absolute;
+  width: 295px;
+  height: 101.577px;
+  left: 29px;
+  top: 155.423px;
+  overflow: visible;
+}
+#Taxi {
+  position: absolute;
+  width: 60.58px;
+  height: 99.577px;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+
+#Subway {
+  position: absolute;
+  width: 60.58px;
+  height: 101.577px;
+  left: 74px;
+  top: 0px;
+  overflow: visible;
+}
+
+#uber {
+  position: absolute;
+  width: 60.58px;
+  height: 99.577px;
+  left: 178px;
+  top: 155px;
+  overflow: visible;
+}
+
+#uber-02 {
+  position: absolute;
+  width: 60.58px;
+  height: 101.577px;
+  left: 252px;
+  top: 155px;
+  overflow: visible;
+}
+#Componente_1 {
+  position: absolute;
+  width: 375px;
+  height: 56px;
+  left: 0px;
+  top: 1793px;
+  overflow: visible;
+  background-color: var(--dark-purple);
+}
+#Tab_Base {
+  fill: var(--dark-purple);
+}
+.Tab_Base {
+  overflow: visible;
+  position: absolute;
+  width: 375px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#space {
+  fill: transparent;
+}
+.space {
+  position: absolute;
+  overflow: visible;
+  width: 93.75px;
+  height: 56px;
+  left: 281px;
+  top: 0px;
+}
+#Travellers {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 227px;
+  top: 20px;
+  overflow: visible;
+}
+#travel-icon {
+  opacity: 0.5;
+  fill: var(--white-light);
+}
+.travel-icon {
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#space_bw {
+  fill: transparent;
+}
+.space_bw {
+  position: absolute;
+  overflow: visible;
+  width: 93.75px;
+  height: 56px;
+  left: 94px;
+  top: 0px;
+}
+#Descovering {
+  opacity: 0.5;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 134px;
+  top: 20px;
+  overflow: visible;
+}
+#descovering-icon {
+  fill: var(--white-light);
+}
+.descovering-icon {
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#space_bz {
+  fill: transparent;
+}
+.space_bz {
+  position: absolute;
+  overflow: visible;
+  width: 93.75px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+}
+#Perfil-select {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 39px;
+  top: 20px;
+  overflow: visible;
+}
+#Retngulo_1454 {
+  fill: transparent;
+}
+.Retngulo_1454 {
+  position: absolute;
+  overflow: visible;
+  width: 16px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+}
+#perfil-home {
+  fill: var(--white-light);
+}
+.perfil-home {
+  overflow: visible;
+  position: absolute;
+  width: 15.98px;
+  height: 16px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+#space_b {
+  fill: transparent;
+}
+.space_b {
+  position: absolute;
+  overflow: visible;
+  width: 93.75px;
+  height: 56px;
+  left: 188px;
+  top: 0px;
+}
+#Likeable {
+  opacity: 0.5;
+  position: absolute;
+  width: 16px;
+  height: 14.119px;
+  left: 320px;
+  top: 21px;
+  overflow: visible;
+}
+#heart-icon {
+  fill: var(--white-light);
+}
+.heart-icon {
+  overflow: visible;
+  position: absolute;
+  width: 16px;
+  height: 14.119px;
+  left: 0px;
+  top: 0px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
