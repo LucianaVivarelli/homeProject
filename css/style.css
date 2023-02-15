@@ -1,4 +1,9 @@
-* {
+
+@font-face {
+  font-family: "Runda";
+  src: url("./assets/runda.ttf");
+  
+}* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -14,7 +19,7 @@
   --green: #8bc34a;
   --light-blue: #5371e6;
   --black: #272727d4;
-  --black-blur: rgba(33, 33, 33, 1);
+  --black-blur: rgba(33, 33, 33, 0.907);
   --grey: #8b8b8b;
 }
 
@@ -30,7 +35,7 @@ body {
   background-color: #261136;
   color: var(--white);
   overflow: hidden;
-  font-family: runda, sans-serif;
+  font-family: runda;
   font-weight: light;
   font-weight: 300;
 }
@@ -58,9 +63,11 @@ body {
   background-color: var(--black);
   bottom: 9.8rem;
   position: relative;
-  left: 16px;
+  left: 22px;
+  
 }
 .boarding-now-container {
+  
   position: absolute;
   width: 145px;
   height: 12.28px;
@@ -79,6 +86,7 @@ body {
   font-size: 10px;
   letter-spacing: 1.5px;
   background-color: var(--green);
+  border-radius:5px 0px 0px 0px;
 }
 .boarding-text {
   position: absolute;
@@ -93,6 +101,7 @@ body {
   height: 32px;
   left: 165px;
   overflow: visible;
+  border-radius:0px 5px 0px 0px;
 }
 .gate-closes {
   left: 0px;
@@ -382,17 +391,20 @@ body {
   position: absolute;
   overflow: visible;
   left: 142px;
-  top: 225px;
+  top: 215px;
   display: flex;
   justify-content: center;
   background-color: var(--dark-purple);
   text-align: center;
+  
 }
 .text-btn {
   background-color: var(--dark-purple);
   color: var(--white);
   letter-spacing: 0, 5%;
   text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 0,2rem;
 }
 
 .title-btn-plans {
@@ -403,26 +415,23 @@ body {
 }
 #your-plans {
   left: 23px;
-  top: 531px;
+  top: 540px;
   position: absolute;
   overflow: hidden;
-  width: 256px;
+  width: 255px;
   height: 20px;
-  line-height: 37px;
+
   margin-top: -9.5px;
   text-align: left;
-  font-family: Runda;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  color: var(--light-blue);
+  font-size: 14px;
+  color: var(--white);
 }
 .btn-more {
   width: 56px;
   height: 56px;
   position: absolute;
-  top: 523px;
-  left: 300px;
+  top: 521px;
+  left: 307px;
   border-radius: 50%;
   background-color: var(--Bright-Purple);
   margin: 0 auto;
@@ -912,21 +921,17 @@ body {
   color: var(--white-light);
 }
 .back-description-liberty {
-  background-color: #040404;
-  width: 322px;
+  width: 320px;
   height: 104px;
   position: absolute;
   overflow: visible;
-  top: 170px;
-  left: 6.5px;
-  background: transparent;
-  backdrop-filter: blur(9px);
+  top: 165px;
+  left: 7px;
+  background-color: var(--black-blur);
+  
 }
 
-#back-description-liberty {
-  filter: blur(6.608px);
-  fill: var(--black-blur);
-}
+
 .card-transport {
   background-color: var(--Bright-Purple);
   position: absolute;
